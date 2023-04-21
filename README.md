@@ -1,13 +1,13 @@
 # Table of contents
 
 - [Table of contents](#table-of-contents)
-- [wallee Android Payment SDK](#wallee-android-payment-sdk)
+- [WhiteLabelNameOne2 Android Payment SDK](#WhiteLabelNameOne2-android-payment-sdk)
   - [API reference](#api-reference)
   - [Installation](#installation)
     - [Requirements](#requirements)
     - [Configuration](#configuration)
   - [Integration](#integration)
-    - [Set up wallee](#set-up-wallee)
+    - [Set up WhiteLabelNameOne2](#set-up-WhiteLabelNameOne2)
     - [Create transaction](#create-transaction)
     - [Collect payment details](#collect-payment-details)
     - [Handle result](#handle-result)
@@ -18,9 +18,9 @@
       - [Light theme](#light-theme)
       - [Dark theme](#dark-theme)
 
-# wallee Android Payment SDK
+# WhiteLabelNameOne2 Android Payment SDK
 
-[![Maven Central](https://img.shields.io/maven-central/v/com.wallee/wallee-payment-sdk)](https://central.sonatype.com/artifact/com.wallee/wallee-payment-sdk/1.0.0)
+[![Maven Central](https://img.shields.io/maven-central/v/com.WhiteLabelNameOne2/WhiteLabelNameOne2-payment-sdk)](https://central.sonatype.com/artifact/com.WhiteLabelNameOne2/WhiteLabelNameOne2-payment-sdk/1.0.0)
 
 ## API reference
 
@@ -54,13 +54,13 @@ dependencies {
 
 ## Integration
 
-### Set up wallee
+### Set up WhiteLabelNameOne2
 
 To use the Android Payment SDK, you need a [whitelabelnameone2 account](https://whitelabel-signup.com/user/signup). After signing up, set up your space and enable the payment methods you would like to support.
 
 ### Create transaction
 
-For security reasons, your app cannot create transactions and fetch access tokens. This has to be done on your server by talking to the [wallee Web Service API](https://app-whitelabel2.com/en-us/doc/api/web-service). You can use one of the official SDK libraries to make these calls.
+For security reasons, your app cannot create transactions and fetch access tokens. This has to be done on your server by talking to the [WhiteLabelNameOne2 Web Service API](https://app-whitelabel2.com/en-us/doc/api/web-service). You can use one of the official SDK libraries to make these calls.
 
 To use the Android Payment SDK to collect payments, an endpoint needs to be added on your server that creates a transaction by calling the [create transaction](https://app-whitelabel2.com/doc/api/web-service#transaction-service--create) API endpoint. A transaction holds information about the customer and the line items and tracks charge attempts and the payment state.
 
@@ -354,4 +354,4 @@ whiteLabelNamePaymentSdkTWO.setCustomTheme(null, ThemeEnum.DARK)
 }
 ```
 
-test6
+test8
